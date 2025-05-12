@@ -1,20 +1,19 @@
+1. Clone the repository
 git clone https://github.com/fudgeejane/tcc-clinic.git
 cd tcc-clinic
 
-# Install project dependencies
+2. Install project dependencies
 npm install
 
-# Install individual dependencies (if needed)
-npm install react react-dom
-npm install react-router-dom
-npm install firebase
-npm install bootstrap
-npm install bootstrap-icons
+3. Install individual dependencies
+npm install react react-dom react-router-dom firebase bootstrap bootstrap-icons
+
+4. Install Tailwind CSS and related tools
 npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
 
-# Optional: Install Tailwind plugins
+5. Optional: Install Tailwind plugins
 npm install -D @tailwindcss/forms @tailwindcss/typography
 
-# Run the development server
+6. Run the development server
 npm run dev
